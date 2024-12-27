@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1679_max_number_of_ksum_pairs/1679_max_number_of_ksum_pairs.iml" filepath="$PROJECT_DIR$/1679_max_number_of_ksum_pairs/1679_max_number_of_ksum_pairs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/392_is_subsequence/392_is_subsequence.iml" filepath="$PROJECT_DIR$/392_is_subsequence/392_is_subsequence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/403_string_compression/403_string_compression.iml" filepath="$PROJECT_DIR$/403_string_compression/403_string_compression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCodeProblemns.iml" filepath="$PROJECT_DIR$/LeetCodeProblemns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kotlin_test/kotlin_test.iml" filepath="$PROJECT_DIR$/kotlin_test/kotlin_test.iml" />
+    </modules>
+  </component>
+</project>
