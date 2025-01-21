@@ -1,4 +1,4 @@
-public class Main {
+public class StringCompression {
     public static void main(String[] args) {
         char[] input1 = new char[]{'a','a','b','b','c','c','c'};
         System.out.println("Input1 res : " + compress(input1));
