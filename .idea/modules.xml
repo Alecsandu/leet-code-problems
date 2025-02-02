@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/2336_smallest_number_in_infinite_set/2336_smallest_number_in_infinite_set.iml" filepath="$PROJECT_DIR$/2336_smallest_number_in_infinite_set/2336_smallest_number_in_infinite_set.iml" />
       <module fileurl="file://$PROJECT_DIR$/392_is_subsequence/392_is_subsequence.iml" filepath="$PROJECT_DIR$/392_is_subsequence/392_is_subsequence.iml" />
       <module fileurl="file://$PROJECT_DIR$/403_string_compression/403_string_compression.iml" filepath="$PROJECT_DIR$/403_string_compression/403_string_compression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/643_maximum_average_subarray_1/643_maximum_average_subarray_1.iml" filepath="$PROJECT_DIR$/643_maximum_average_subarray_1/643_maximum_average_subarray_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCodeProblemns.iml" filepath="$PROJECT_DIR$/LeetCodeProblemns.iml" />
       <module fileurl="file://$PROJECT_DIR$/kotlin_test/kotlin_test.iml" filepath="$PROJECT_DIR$/kotlin_test/kotlin_test.iml" />
     </modules>
