@@ -1,12 +1,29 @@
 fun main() {
-    var obj = SmallestInfiniteSet()
+    val obj = SmallestInfiniteSet()
     obj.addBack(5)
     obj.addBack(5)
     obj.addBack(5)
     obj.addBack(5)
     obj.addBack(5)
     obj.addBack(5)
-    var param_1 = obj.popSmallest()
+    val param1 = obj.popSmallest()
+    println(param1)
+
+    val obj2 = SmallestInfiniteSetWithByteArray()
+    val param2 = obj2.popSmallest()
+    obj2.popSmallest()
+    obj2.popSmallest()
+    obj2.popSmallest()
+    obj2.popSmallest()
+    obj2.popSmallest()
+    obj2.popSmallest()
+    obj2.addBack(5)
+    obj2.addBack(5)
+    obj2.addBack(5)
+    obj2.addBack(5)
+    obj2.addBack(5)
+    obj2.addBack(5)
+    println(param2)
 }
 
 /**
@@ -30,7 +47,7 @@ class SmallestInfiniteSet() {
 
 }
 
-class _SmallestInfiniteSet{
+class SmallestInfiniteSetWithByteArray{
     private var items: ByteArray = ByteArray(1001)
     private var minIndex: Int = 0
 
@@ -41,8 +58,10 @@ class _SmallestInfiniteSet{
 
     fun popSmallest(): Int {
         val byteValue: Byte = 1.toByte()
-        while (items[minIndex++] == byteValue);
-        items[minIndex - 1] = 1;
+        while (items[minIndex] == byteValue) {
+            minIndex++
+        }
+        items[minIndex] = 1
 
         return minIndex
     }
