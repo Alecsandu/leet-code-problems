@@ -6,6 +6,7 @@ fun main() {
 
     linkedList.add(Node(2, null))
     linkedList.print()
+    println("Expected: 1, 2")
 }
 
 internal class LinkedList(private val head: Node, private var tail: Node) {
