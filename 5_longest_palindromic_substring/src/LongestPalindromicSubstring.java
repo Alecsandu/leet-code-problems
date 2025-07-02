@@ -2,6 +2,8 @@ public class LongestPalindromicSubstring {
 
     public static void main(String[] args) {
         Solver solver = new Solver();
+        System.out.println(solver.longestPalindrome("abCDCCDCef"));
+        System.out.println(solver.longestPalindrome("abCDC_CDCef"));
         System.out.println(solver.longestPalindrome("babad"));
         System.out.println(solver.longestPalindrome("cbbd"));
     }
@@ -12,6 +14,7 @@ public class LongestPalindromicSubstring {
             if (s == null || s.isBlank()) {
                 return "";
             }
+            s = s.trim();
 
             int start = 0;
             int end = 0;
