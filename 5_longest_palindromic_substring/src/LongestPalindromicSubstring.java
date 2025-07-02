@@ -3,7 +3,7 @@ public class LongestPalindromicSubstring {
     public static void main(String[] args) {
         Solver solver = new Solver();
         System.out.println(solver.longestPalindrome("babad"));
-        //System.out.println(solver.longestPalindrome("cbbd"));
+        System.out.println(solver.longestPalindrome("cbbd"));
     }
 
     private static class Solver {
