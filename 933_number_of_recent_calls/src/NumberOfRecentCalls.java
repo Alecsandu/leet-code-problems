@@ -4,7 +4,7 @@ import java.util.stream.Stream;
 
 public class NumberOfRecentCalls {
 
-    public static void main(String[] args) {
+    static void main() {
         RecentCounter obj = new RecentCounter();
         int param_1 = obj.ping(1);
         int param_2 = obj.ping(100);

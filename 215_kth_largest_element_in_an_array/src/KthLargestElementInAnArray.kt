@@ -2,6 +2,7 @@ import java.util.*
 
 fun main() {
     println(findKthLargest(intArrayOf(2, 2, 2, 6, 6, 6), 2))
+    println(findKthLargestOldImpl(intArrayOf(2, 2, 2, 6, 6, 6), 2))
 }
 
 fun findKthLargest(nums: IntArray, k: Int): Int {
@@ -18,7 +19,7 @@ fun findKthLargest(nums: IntArray, k: Int): Int {
     return x
 }
 
-fun _findKthLargest(nums: IntArray, k: Int): Int {
+fun findKthLargestOldImpl(nums: IntArray, k: Int): Int {
     val max = nums.max()
     val min = nums.min()
     val counts = IntArray(max + 1 - min)
